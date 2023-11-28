@@ -1,0 +1,42 @@
+@import url("https://fonts.googleapis.com/css2?family=Borel&family=Dancing+Script&family=Pacifico&display=swap");
+body {
+    background: url(img/new-logo.png);
+    background-position: center center;
+    background-color: #065268;
+    min-height: 100vh; /*100% taille de l'écran*/
+}
+h3 {
+    list-style: none;
+    text-decoration: underline;
+    font-size: 1.8rem;
+    font-family: "Pacifico", cursive;
+    color: darkslateblue;
+}
+img {
+    margin: 50px 0px;
+    margin-bottom: 0;
+    margin-right: 50px;
+    margin-left: 50px;
+    border: 8px solid #2106b9fc;
+    box-shadow: 0 0 10px 12px rgb(5, 170, 255);
+    justify-content: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 300px;
+}
+h4 {
+    list-style: none;
+    text-decoration: underline;
+    font-family: "Pacifico", cursive;
+    color: darkslateblue;
+}
+#button {
+    font-family: "Borel", cursive;
+    font-size: 1.2rem;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    margin-bottom: 0;
+    cursor: pointer;
+}
